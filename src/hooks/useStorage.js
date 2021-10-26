@@ -1,5 +1,5 @@
 import {useState, useEffect } from 'react';
-import { projectFirestore, projectStorage,timestamp } from '../firebase/config';
+import { projectFirestore, projectStorage } from '../firebase/config';
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 

@@ -1,4 +1,3 @@
-import * as firebase from 'firebase/app';
 import { getStorage } from 'firebase/storage'
 import { getFirestore, Timestamp } from 'firebase/firestore'
 
@@ -20,7 +19,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 
 const projectStorage = getStorage();
 const projectFirestore = getFirestore();

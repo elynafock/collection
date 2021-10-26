@@ -1,4 +1,3 @@
-import { Firestore } from '@firebase/firestore';
 import React from 'react';
 import useFireStore from '../hooks/useFirestore';
 import { motion } from 'framer-motion';
